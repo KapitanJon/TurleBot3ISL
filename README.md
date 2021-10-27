@@ -33,6 +33,6 @@ The next part is very important. Take into account that if you are working in th
          dhcp4: yes
          dhcp6: yes
          accesspoints:
-         "BRONCO-STUDENT": {}
+           "BRONCO-STUDENT": {}
  ```
 From here you should be able to continue throught the rest of the instructions without any problems.
