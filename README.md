@@ -38,7 +38,8 @@ You will need to edit the 50-cloud-init.yaml text file on your pi. This file is 
 The next part is very important. Take into account that if you are working in the ISL lab you should be using the BRONCO_STUDENT. When creating the yaml file spacing matters. everything should be typed and spaced as follows.
 
   
-```network:
+```
+network:
      version: 2
      renderer: networkd
      ethernets:
