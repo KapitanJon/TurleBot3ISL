@@ -12,5 +12,5 @@ https://brb.nci.nih.gov/seqtools/installUbuntu.html <br />
 Follow all of steps 3.1 on the guide. It should not give you any issues. If any issues were to arise contact Jon S. or Sean P. <br />
 *Note: Make sure to follow instructions to the T do not rush and troubleshoot any errors as they could pose problems in the future* <br />
 # Raspberry Pi and Network
-If you have made it this far your PC should have ROS Noetic installed and ready to go. From here we will fill in the gaps on setting up the Raspberry Pi's that are on the TurtleBots. You should be Starting on section 3.2 in the guide. The first important step is to select the correct Noetic Image which is 
+If you have made it this far your PC should have ROS Noetic installed and ready to go. From here we will fill in the gaps on setting up the Raspberry Pi's that are on the TurtleBots. You should be Starting on section 3.2 in the guide. The first important step is to select the correct Noetic Image which is <br /> 
 ![ROSNoeticImage](https://user-images.githubusercontent.com/91296386/139104879-df30f7f0-7dbc-43e7-9ff0-6d19c122b124.PNG)
