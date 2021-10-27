@@ -33,7 +33,7 @@ First you need to generate a basic netplan file. It's important to use the follo
 
 You will need to edit the 50-cloud-init.yaml text file on your pi. This file is used to connect to the school wifi. In order to edit enter the following:
   
-```sudo nano /etc/netplan/50-cloud-init.yam ```  
+```sudo nano /etc/netplan/50-cloud-init.yaml ```  
   
 The next part is very important. Take into account that if you are working in the ISL lab you should be using the BRONCO_STUDENT. When creating the yaml file spacing matters. everything should be typed and spaced as follows.
 
