@@ -35,3 +35,4 @@ The next part is very important. Take into account that if you are working in th
          accesspoints:
          "BRONCO-STUDENT": {}
  ```
+From here you should be able to continue throught the rest of the instructions without any problems.
