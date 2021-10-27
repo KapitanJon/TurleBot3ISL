@@ -17,4 +17,21 @@ If you have made it this far your PC should have ROS Noetic installed and ready 
 Follow the instruction for the rapsberry Pi Imager. This is a crucial portion be sure to follow all instructions. <br />
 When you reach section 3.2.6 refer to this guide. <br />
 You will now have to set up the 50-cloud-init.yaml. This file sets up your network setting on the Raspberrypi. To get here type the following. <br />
-```cd etc/writable ``` <br />
+```cd /etc/netplan ``` <br />
+Next type <br />
+```sudo nano 50-cloud-init.yaml``` <br />
+The next part is very important. Take into account that if you are working in the ISL lab you should be using the BRONCO_STUDENT. When creating the yaml file spacing matters. everything should be typed and spaced as follows.
+```network:
+     version: 2
+     renderer: networkd
+     ethernets:
+       eth0:
+         dhcp4: true
+         optional: true
+     wifis:
+       wlan0:
+         dhcp4: yes
+         dhcp6: yes
+         accesspoints:
+         "BRONCO-STUDENT": {}
+ ```
