@@ -40,18 +40,18 @@ The next part is very important. Take into account that if you are working in th
   
 ```
 network:
-     version: 2
-     renderer: networkd
-     ethernets:
-       eth0:
-         dhcp4: true
-         optional: true
-     wifis:
-       wlan0:
-         dhcp4: yes
-         dhcp6: yes
-         accesspoints:
-           "BRONCO-STUDENT": {}
+  version: 2
+  renderer: networkd
+  ethernets:
+    eth0:
+      dhcp4: true
+      optional: true
+  wifis:
+    wlan0:
+      dhcp4: yes
+      dhcp6: yes
+      access-points:
+        "BRONCO-STUDENT": {}
  ```
  
   
